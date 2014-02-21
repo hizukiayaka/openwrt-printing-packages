@@ -28,7 +28,7 @@ define Package/gutenprint-cups
   CATEGORY:=Network
   TITLE:=gutenprint-cups -- Gutenprint CUPS drivers
   # XXX FIXME perl is required by cups-genppdupdate, but it needs more libs
-  DEPENDS:=+cups +libcupsimage +libiconv
+  DEPENDS:=+cups +libiconv
   URL:=http://gimp-print.sourceforge.net/
   SUBMENU:=Printing
 endef
